@@ -12,7 +12,6 @@ test('Select a product and Add to Cart Click "ok" on the popup ',async({page})=>
     await expect(page).toHaveURL('https://www.demoblaze.com/index.html')
     await page.getByText('Sony vaio i5').click()
     await page.getByText('Add to cart').click()
-
 })
 
 test('Select a product under phones and Add to Cart Click "ok" on the popup and add details ',async({page})=>{
